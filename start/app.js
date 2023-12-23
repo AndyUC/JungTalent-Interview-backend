@@ -22,7 +22,7 @@ app.use('/api/v1/auth', authrouter)
 const publicVapidKey= 'BK-LPd2hDKcEzDOsFncWG4_1KOyZOWx8EAbSK8arLHBCF5Df-m12Rt8mz-JNV7KHmILsuRbn0RbvNisgoYvIElM';
 const privateVapidKey= 'XMyk7tly59MU6h1nlsNxIZSUCP7vqpdAW0zdr5Hh60s';
 
-const webpushHeader = webpush.setVapidDetails('mailto:nhanduc811@gmail.com',publicVapidKey,privateVapidKey)
+
 
 const endpoints = []
 
